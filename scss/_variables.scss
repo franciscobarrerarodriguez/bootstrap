@@ -79,21 +79,21 @@
 //$light:         $gray-100 !default;
 //$dark:          $gray-800 !default;
 //
-//$theme-colors: () !default;
-//// stylelint-disable-next-line scss/dollar-variable-default
-//$theme-colors: map-merge(
-//  (
-//    "primary":    $primary,
-//    "secondary":  $secondary,
-//    "success":    $success,
-//    "info":       $info,
-//    "warning":    $warning,
-//    "danger":     $danger,
-//    "light":      $light,
-//    "dark":       $dark
-//  ),
-//  $theme-colors
-//);
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
 //
 //// Set a specific jump point for requesting color jumps
 //$theme-color-interval:      8% !default;
@@ -125,7 +125,7 @@
 //// variables. Mostly focused on spacing.
 //// You can add more entries to the $spacers map, should you need more variation.
 //
-//$spacer: 1rem !default;
+$spacer: 1rem !default;
 //$spacers: () !default;
 //// stylelint-disable-next-line scss/dollar-variable-default
 //$spacers: map-merge(
@@ -165,7 +165,7 @@
 ////
 //// Style anchor elements.
 //
-//$link-color:                theme-color("primary") !default;
+$link-color:                theme-color("primary") !default;
 //$link-decoration:           none !default;
 //$link-hover-color:          darken($link-color, 15%) !default;
 //$link-hover-decoration:     underline !default;
@@ -174,7 +174,7 @@
 ////
 //// Style p element.
 //
-//$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   1rem !default;
 //
 //
 //// Grid breakpoints
@@ -253,29 +253,29 @@
 //$font-family-base:            $font-family-sans-serif !default;
 //// stylelint-enable value-keyword-case
 //
-//$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 //$font-size-lg:                ($font-size-base * 1.25) !default;
 //$font-size-sm:                ($font-size-base * .875) !default;
 //
 //$font-weight-light:           300 !default;
 //$font-weight-normal:          400 !default;
-//$font-weight-bold:            700 !default;
+$font-weight-bold:            700 !default;
 //
 //$font-weight-base:            $font-weight-normal !default;
 //$line-height-base:            1.5 !default;
 //
-//$h1-font-size:                $font-size-base * 2.5 !default;
-//$h2-font-size:                $font-size-base * 2 !default;
-//$h3-font-size:                $font-size-base * 1.75 !default;
-//$h4-font-size:                $font-size-base * 1.5 !default;
-//$h5-font-size:                $font-size-base * 1.25 !default;
-//$h6-font-size:                $font-size-base !default;
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
 //
-//$headings-margin-bottom:      ($spacer / 2) !default;
-//$headings-font-family:        inherit !default;
-//$headings-font-weight:        500 !default;
-//$headings-line-height:        1.2 !default;
-//$headings-color:              inherit !default;
+$headings-margin-bottom:      ($spacer / 2) !default;
+$headings-font-family:        inherit !default;
+$headings-font-weight:        500 !default;
+$headings-line-height:        1.2 !default;
+$headings-color:              inherit !default;
 //
 //$display1-size:               6rem !default;
 //$display2-size:               5.5rem !default;
@@ -303,7 +303,7 @@
 //
 //$mark-padding:                .2em !default;
 //
-//$dt-font-weight:              $font-weight-bold !default;
+$dt-font-weight:              $font-weight-bold !default;
 //
 //$kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25) !default;
 //$nested-kbd-font-weight:      $font-weight-bold !default;
@@ -319,7 +319,7 @@
 ////
 //// Customizes the `.table` component with basic values, each used across all table variations.
 //
-//$table-cell-padding:          .75rem !default;
+$table-cell-padding:          .75rem !default;
 //$table-cell-padding-sm:       .3rem !default;
 //
 //$table-bg:                    transparent !default;
@@ -405,7 +405,7 @@
 //
 //// Forms
 //
-//$label-margin-bottom:                   .5rem !default;
+$label-margin-bottom:                   .5rem !default;
 //
 //$input-padding-y:                       $input-btn-padding-y !default;
 //$input-padding-x:                       $input-btn-padding-x !default;

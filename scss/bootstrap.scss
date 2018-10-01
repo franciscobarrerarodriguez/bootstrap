@@ -5,12 +5,16 @@
 // * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 // */
 //
-//@import "functions";
-//@import "variables";
-//@import "mixins";
-//@import "root";
-//@import "reboot";
-//@import "type";
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+
+/* Reboot is inherit from bootstrap, normalize is cloned from original Normalize repo. */
+@import "reboot";
+//@import "normalize";
+
+@import "type";
 //@import "images";
 //@import "code";
 //@import "grid";
